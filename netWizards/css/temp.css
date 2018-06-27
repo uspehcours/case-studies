@@ -1,0 +1,195 @@
+*,::before,::after{}
+body{}
+h1,h2,h3,h4,h5,h6,p{}
+ul,ol{}
+a{}
+input,button{}
+.bodyWrap{}
+.container{}
+.clear::after{}
+header{}
+.headWrap{}
+.topLine{}
+.table{}
+.tCell{}
+.cont{}
+.app{}
+.logo{}
+.logoPart{}
+.logoPart img + img{}
+.cont{}
+.phone{}
+.phone:hover{}
+.app{}
+[class*="btn"]{}
+[class*="btn"][class*="White"]{}
+[class*="btn"][class*="White"]:hover{}
+[class*="btn"][class*="Blue"]{}
+[class*="btn"][class*="Blue"]:hover{}
+[class*="btn"][class*="Big"]{}
+.banner{}
+h1{}
+.banner p{}
+.banner ul{}
+.banner li{}
+.banner li + li{}
+.banner li::before{}
+.banner .note{}
+.headerImg{}
+.headerImg::before{}
+[class*="headline"]{}
+[class*="headline"][class*="Black"]{}
+[class*="headline"][class*="White"]{}
+[class*="headline"][class*="Left"]{}
+.logoSl{}
+.sliderWrap{}
+.logoSl .logoNav{}
+[class*="Nav"] > span{}
+.logoNav .owl-prev{}
+.logoNav .owl-next{}
+.logoNav > span:hover{}
+[class*="icon"][class*="nav"]{}
+.logoSlider .item{}
+.about{}
+.aboutDots{}
+.aboutDots div{}
+.aboutDots div:hover{}
+.aboutDots div + div{}
+.aboutDots div::before{}
+.aboutDots div:last-child::before{}
+.aboutDots div.active{}
+.aboutDots div.active::after{}
+html:not(.IE) .aboutDots div.active::after{}
+.aboutSl{}
+.about .item{}
+.about .img{}
+.about .content{}
+.about .title + p{}
+.about .title{}
+.about .title span{}
+.about p{}
+.warn{}
+.warn::before{}
+.about .content p + .warn{}
+.warn .msg{}
+.warn .msg::before{}
+.warn .msg::after{}
+[class*="advTempl"]{}
+.advTempl1{}
+.advWrap{}
+[class*="advTempl"] .left{}
+[class*="advTempl"] .right{}
+[class*="advTempl"] .item{}
+.advTempl1 .imgBl{}
+.advTempl1 .img1{}
+.advTempl1 .img1 img{}
+.advTempl1 .img2{}
+.advTempl1 .img2.animation{}
+.advTempl1 .left{}
+.advTempl1 .right{}
+.advTempl1 .item + .item{}
+.advTempl1 .img{}
+[class*="advTempl"] .title{}
+.advTempl1 .title{}
+[class*="advTempl"] p{}
+.advTempl1 p{}
+.advTempl2{}
+.advTempl2 .img{}
+.advTempl2 .left{}
+.advTempl2 .right{}
+.advTempl2 .item + .item{}
+.advTempl2 .title{}
+.advTempl2 [class*="icon"]{}
+.plan{}
+.planBg{}
+.planBg .img{}
+.planWrap{}
+.stepBl{}
+.plan .stepBl [class*="step"]{}
+.plan .stepBl [class*="step"]::before{}
+.plan .stepBl .step1{}
+.plan .stepBl .step2{}
+.plan .stepBl .step3{}
+.plan .stepBl .step4{}
+.plan .stepBl .step5{}
+.plan .stepBl .step6{}
+.plan [class*="btn"]{}
+[class*="headline"][class*="Black"] + p{}
+[class*="headline"][class*="Black"] + p span{}
+.advTempl3 .advWrap{}
+.advTempl3 .item{}
+.num{}
+.stroke{}
+.stroke::before{}
+html:not(.IE) .stroke::before{}
+.advTempl3 .item .num{}
+.advTempl3 .item .num::before{}
+.advTempl3 .title{}
+.cardTempl{}
+.cardWrap{}
+.card{}
+.card .in{}
+.card .title{}
+.card .price{}
+.card .price::before{}
+.card .price span{}
+.card p{}
+.card p + p{}
+.card a{}
+.subscribe{}
+[class*="headline"][class*="Left"] + p{}
+.subWrap > .item{}
+.subscribe .img{}
+.subForm{}
+.subForm [class*="headline"] + p{}
+.subForm .item{}
+.subForm .item + .item{}
+.subForm .item > [class*="icon"]{}
+input[type="email"]{}
+.subForm .item > [class*="icon"]::before{}
+input[type="email"]:focus{}
+input[type="email"]:focus + [class*="icon"]::before{}
+input[type="email"]::-webkit-input-placeholder{}
+input[type="email"]:-ms-input-placeholder{}
+input[type="email"]::-ms-input-placeholder{}
+input[type="email"]::placeholder{}
+.subscribe button{}
+.subscribe button:hover{}
+.subscribe button [class*="icon"]::before{}
+.subscribe button:hover [class*="icon"]::before{}
+.check{}
+.check + label{}
+.check + label a{}
+.check + label a:hover{}
+.check + label::before{}
+.check:not(checked) + label::after{}
+.check:checked + label::after{}
+.portfolio{}
+.portfolioWrap{}
+.siteNav{}
+.siteNav .owl-prev{}
+.siteNav .owl-next{}
+.siteNav > span{}
+.siteNav > span:hover{}
+.siteInfo{}
+.siteInfo > span{}
+.siteInfo a{}
+.siteInfo a:hover{}
+.siteInfo .descr{}
+.siteInfo .descr span{}
+.siteData{}
+[class*="vis"]{}
+.visPrev{}
+.visNext{}
+[class*="vis"] > span{}
+[class*="vis"] .num{}
+[class*="vis"] .num::before{}
+[class*="vis"] [class*="icon"]{}
+.visPrev [class*="icon"]{}
+.visNext [class*="icon"]{}
+.siteItem .img{}
+footer{}
+.footWrap{}
+.copyright{}
+.footWrap .cont{}
+.footWrap .app{}
